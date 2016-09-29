@@ -2,9 +2,11 @@
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
+        style="@style/BeatBoxButton.Strong"
         android:layout_height="120dp"
         android:id="@+id/list_item_sound_button"
         tools:text = "Sound Name"
         >
 
 </Button>
+<!-- 直接修改某一个button 不如在theme中添加一个style -->
