@@ -19,6 +19,7 @@ public class BeatBoxFragment extends Fragment {
 
     private BeatBox mBeatBox;
 
+
     public static BeatBoxFragment NewInstance()
     {
         return new BeatBoxFragment();
