@@ -7,6 +7,7 @@ package com.arirus.beatbox.trunk;
 public class Sound {
     private String mAssetPath;
     private String mName;
+    private Integer mSoundID;
 
     public Sound(String assetPath) {
         mAssetPath = assetPath;
@@ -14,6 +15,14 @@ public class Sound {
         String fileName = components[components.length-1];
 
         mName = fileName.replace(".wav", "");
+    }
+
+    public Integer getSoundID() {
+        return mSoundID;
+    }
+
+    public void setSoundID(Integer soundID) {
+        mSoundID = soundID;
     }
 
     public String getAssetPath() {
