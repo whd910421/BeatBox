@@ -1,1 +1,8 @@
 .idea/
+.DS_Store
+.gradle/
+BeatBox.iml
+app/app.iml
+app/build/
+build/
+local.properties
