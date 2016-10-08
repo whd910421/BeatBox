@@ -8,8 +8,8 @@
         >
 
         <Button
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:id="@+id/list_item_sound_button"
             tools:text = "Sound Name"
